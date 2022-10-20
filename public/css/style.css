@@ -1,0 +1,16 @@
+
+.navigation {
+    height: 100vh;
+    left: 0;
+    width: 400px;
+}
+
+.container {
+    min-width: 100%;
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
