@@ -3,5 +3,8 @@
     <h1>
         Szczegóły
     </h1>
+    <p>
+        fsdfksfjkds
+    </p>
 
 </div>
