@@ -2,7 +2,7 @@
 <div class="container table-responsive">
     <?php  include '../src/inc/header.php' ?>
     <table class="table  caption-top">
-        <caption>List of users</caption>
+        <caption class="text-center">List of users</caption>
         <thead class="table-dark">
         <tr>
             <th scope="col">#</th>
@@ -28,7 +28,11 @@
             <td>24.10.2022</td>
             <td>Domena</td>
             <td>Abcd</td>
-            <td>Zobacz</td>
+            <td>
+                <a href="user_details.php">
+                    <button type="button" class="btn btn-primary">Zobacz</button>
+                </a>
+            </td>
         </tr>
         <tr>
             <th scope="row">2</th>
@@ -40,7 +44,11 @@
             <td>24.10.2022</td>
             <td>Domena</td>
             <td>Abcd</td>
-            <td>Zobacz</td>
+            <td>
+                <a href="user_details.php">
+                    <button type="button" class="btn btn-primary">Zobacz</button>
+                </a>
+            </td>
         </tr>
         </tbody>
     </table>
