@@ -8,15 +8,7 @@
     <section style="background-color: #eee;">
         <div class="container py-5">
             <div class="row">
-                <div class="col">
-                    <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
-                        <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">User</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">User Profile</li>
-                        </ol>
-                    </nav>
-                </div>
+
             </div>
 
             <div class="row">
@@ -41,14 +33,13 @@
                                     <p class="mb-0">www.moja-domena.pl</p>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                    <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                                    <img src="./img/phone-black.svg" alt="phone-img" style="width: 22px; ">
                                     <p class="mb-0">000-111-222</p>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                                     <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
-                                    <p class="mb-0">@client</p>
+                                    <p class="mb-0">@client_twitter</p>
                                 </li>
-
                             </ul>
                         </div>
                     </div>

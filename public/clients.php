@@ -5,7 +5,7 @@
     <?php  include '../src/inc/header.php' ?>
 
     <table class="table   table-sm table-dark caption-top table-striped table-hover table-responsive">
-        <caption class="text-center">List of clients</caption>
+        <caption class="text-center">Lista klientów</caption>
         <thead class="table-dark">
         <tr class="text-center" >
             <th scope="col">#</th>
