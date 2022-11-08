@@ -20,9 +20,7 @@
                             <h5 class="my-3">Jan Kowalski</h5>
                             <p class="text-muted mb-1">Company sp z.o.o</p>
                             <p class="text-muted mb-4">Kraków, Floriańska 8</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <button type="button" class="btn btn-outline-primary ms-1">Message</button>
-                            </div>
+
                         </div>
                     </div>
                     <div class="card mb-4 mb-lg-0">
