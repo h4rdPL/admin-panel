@@ -78,7 +78,9 @@
         height:100%;
     }
 </style>
-<div class="container">
+
+<main style="margin-top: 58px">
+<div class="container pt-4">
     <?php  include '../src/inc/header.php' ?>
     <div class="scrum-board-container">
         <div class="board-title">
@@ -121,3 +123,5 @@
             </div>
         </div>
 </div>
+</main>
+</body>
