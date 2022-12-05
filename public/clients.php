@@ -2,7 +2,7 @@
     <div class="container table-responsive pt-4">
         <?php  include '../src/inc/header.php' ?>
 
-        <table class="table   table-sm table-light caption-top table-striped table-hover table-responsive">
+        <table class="table table-sm table-light caption-top table-striped table-hover table-responsive">
             <caption><h2 class="ps-2">Klienci</h2></caption>
             <thead class="table-light">
             <tr class="text-center" >

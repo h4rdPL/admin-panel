@@ -11,7 +11,12 @@
 
     .flex{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+    @media screen and (min-width: 800px) {
+        .flex {
+            flex-direction: row;
+        }
     }
     .scrum-board{
         flex: 1;

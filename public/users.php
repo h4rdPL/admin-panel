@@ -5,7 +5,7 @@
 
         <table class="table  caption-top">
             <caption><h2 ps-2>Użytkownicy</h2></caption>
-            <thead class="table-dark">
+            <thead class="table-light">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Imię</th>

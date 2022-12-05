@@ -104,29 +104,6 @@
             <!-- Right links -->
             <ul class="navbar-nav ms-auto d-flex flex-row">
                 <!-- Notification dropdown -->
-                <li class="nav-item dropdown">
-                    <a
-                            class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
-                            href="#"
-                            id="navbarDropdownMenuLink"
-                            role="button"
-                            data-mdb-toggle="dropdown"
-                            aria-expanded="false"
-                    >
-                        <i class="fas fa-bell"></i>
-                        <span class="badge rounded-pill badge-notification bg-danger"
-                        >1</span
-                        >
-                    </a>
-                    <ul
-                            class="dropdown-menu dropdown-menu-end"
-                            aria-labelledby="navbarDropdownMenuLink"
-                    >
-                        <li><a class="dropdown-item" href="#">Powiadomienia</a></li>
-                        <li><a class="dropdown-item" href="#">Wiadomości</a></li>
-
-                    </ul>
-                </li>
 
                 <!-- Avatar -->
                 <li class="nav-item dropdown">
@@ -150,7 +127,6 @@
                             class="dropdown-menu dropdown-menu-end"
                             aria-labelledby="navbarDropdownMenuLink"
                     >
-                        <li><a class="dropdown-item" href="#">Mój profil</a></li>
                         <li><a class="dropdown-item" href="#">Wylogowanie</a></li>
                     </ul>
                 </li>
