@@ -1,4 +1,5 @@
 <style>
+
     .scrum-board-container{
         font-family: Arial;
         color: #555;
@@ -95,38 +96,50 @@
         <div class="flex">
             <div class="scrum-board backlog">
                 <h2>To do</h2>
-                <div class="scrum-board-column" ondrop="drop(event)" ondragover="dragover(event)" id="backlog">
-                    <div class="scrum-task overflow" draggable="true" ondragstart="dragstart(event)" id="123">
-                        <span>Create Migration plan 1</span>
+                <div class="scrum-board-column dropzone  done dropzone"  id="backlog ">
+                    <div class="scrum-task overflow draggable" draggable="true" id="draggable">
+                        <span>Create Migration plan 52</span>
                         <div class="scrum-task-description">A description of the task will be here</div>
-                        <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
+                        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                            <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
+                            <button type="button"  class="btn btn-danger remove-btn">Usuń zadanie</button>
+                        </div>
                     </div>
-
-                    <div class="scrum-task overflow" draggable="true" ondragstart="dragstart(event)" id="89">
-                        <span>Create Migration plan 2</span>
-
+                    <div class="scrum-task overflow draggable" draggable="true" id="draggable">
+                        <span>Create Migration plan 52222</span>
                         <div class="scrum-task-description">A description of the task will be here</div>
-                        <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
-
+                        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                            <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
+                            <button type="button"  class="btn btn-danger remove-btn">Usuń zadanie</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="scrum-board in-progress">
                 <h2>In progress</h2>
-                <div class="scrum-board-column" ondrop="drop(event)" ondragover="dragover(event)" id="in-progress">
-                    <div class="scrum-task overflow" draggable="true" ondragstart="dragstart(event)" id="423">
-                        <span>Create Migration plan 3</span>
+                <div class="scrum-board-column  done dropzone " id="in-progress">
+                    <div class="scrum-task overflow draggable" draggable="true" id="draggable">
+                        <span>Create Migration plan 52</span>
                         <div class="scrum-task-description">A description of the task will be here</div>
-                        <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
+                        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                            <div class="scrum-task-date badge badge-danger">Due 20/04/2019</div>
+                            <button type="button"  class="btn btn-danger remove-btn">Usuń zadanie</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="scrum-board done">
+            <div class="scrum-board  done">
                 <h2>Done</h2>
-                <div class="scrum-board-column" ondrop="drop(event)" ondragover="dragover(event)" id="done"></div>
+                <div class="scrum-board-column done dropzone" ></div>
             </div>
+
         </div>
-</div>
+    </div>
+    <a href="add_task.php">
+        <button type="button" style="margin-top: 4rem;" class="btn btn-primary">Dodaj zadanie</button>
+    </a>
+
 </main>
+<script src="js/tasks.js"></script>
 </body>
