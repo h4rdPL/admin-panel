@@ -58,6 +58,12 @@
                 >
                     <i class="fas fa-chart-pie fa-fw me-3"></i><span>Użytkownicy</span>
                 </a>
+                <a
+                        href="vacations.php"
+                        class="list-group-item list-group-item-action py-2 ripple"
+                >
+                    <i class="fas fa-chart-pie fa-fw me-3"></i><span>Urlopy</span>
+                </a>
 
             </div>
         </div>
